@@ -1,0 +1,19 @@
+{
+  "name": "simply-notify-start",
+  "version": "1.0.0",
+  "description": "Clone this repository to follow along with the video series.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S00165352/simpleNotify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S00165352/simpleNotify/issues"
+  },
+  "homepage": "https://github.com/S00165352/simpleNotify#readme"
+}
