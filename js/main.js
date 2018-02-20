@@ -99,7 +99,7 @@
       })
       .then(() => checkSubscription())
       .catch((err) => {
-        console.log("error deleting token :(");
+        console.log("Error Deleting Token :(");
       });
       
   }

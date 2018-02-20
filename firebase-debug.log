@@ -1,31 +1,151 @@
-[debug] [2018-02-16T21:16:31.904Z] ----------------------------------------------------------------------
-[debug] [2018-02-16T21:16:31.907Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Niall McC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2018-02-16T21:16:31.907Z] CLI Version:   3.17.4
-[debug] [2018-02-16T21:16:31.907Z] Platform:      win32
-[debug] [2018-02-16T21:16:31.907Z] Node Version:  v6.11.4
-[debug] [2018-02-16T21:16:31.908Z] Time:          Fri Feb 16 2018 21:16:31 GMT+0000 (GMT Standard Time)
-[debug] [2018-02-16T21:16:31.908Z] ----------------------------------------------------------------------
+[debug] [2018-02-17T10:41:15.769Z] ----------------------------------------------------------------------
+[debug] [2018-02-17T10:41:15.771Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Niall McC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-17T10:41:15.772Z] CLI Version:   3.17.4
+[debug] [2018-02-17T10:41:15.772Z] Platform:      win32
+[debug] [2018-02-17T10:41:15.772Z] Node Version:  v6.11.4
+[debug] [2018-02-17T10:41:15.772Z] Time:          Sat Feb 17 2018 10:41:15 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-17T10:41:15.772Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-02-16T21:16:31.919Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-02-16T21:16:31.921Z] > authorizing via signed-in user
-[debug] [2018-02-16T21:16:31.923Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/simplenotify-66929  
+[debug] [2018-02-17T10:41:15.786Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-17T10:41:15.787Z] > authorizing via signed-in user
+[debug] [2018-02-17T10:41:15.789Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/simplenotify-66929  
   
- Fri Feb 16 2018 21:16:31 GMT+0000 (GMT Standard Time)
-[debug] [2018-02-16T21:16:32.652Z] <<< HTTP RESPONSE 200
-[debug] [2018-02-16T21:16:32.652Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/simplenotify-66929/tokens  
+ Sat Feb 17 2018 10:41:15 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-17T10:41:16.446Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-17T10:41:16.447Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/simplenotify-66929/tokens  
   
- Fri Feb 16 2018 21:16:32 GMT+0000 (GMT Standard Time)
-[debug] [2018-02-16T21:16:33.243Z] <<< HTTP RESPONSE 200
+ Sat Feb 17 2018 10:41:16 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-17T10:41:17.021Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'C:\Users\Niall McC\Desktop\simply-notify-start'...
 [info] 
-[debug] [2018-02-16T21:16:33.246Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/simplenotify-66929  
+[debug] [2018-02-17T10:41:17.024Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/simplenotify-66929  
   
- Fri Feb 16 2018 21:16:33 GMT+0000 (GMT Standard Time)
-[debug] [2018-02-16T21:16:34.047Z] <<< HTTP RESPONSE 200
-[debug] [2018-02-16T21:16:34.048Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/175897050447/clients/_:getWebAppConfig  
+ Sat Feb 17 2018 10:41:17 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-17T10:41:17.743Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-17T10:41:17.743Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/175897050447/clients/_:getWebAppConfig  
   
- Fri Feb 16 2018 21:16:34 GMT+0000 (GMT Standard Time)
-[debug] [2018-02-16T21:16:34.590Z] <<< HTTP RESPONSE 200
+ Sat Feb 17 2018 10:41:17 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-17T10:41:18.286Z] <<< HTTP RESPONSE 200
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-20T14:18:52.085Z] ----------------------------------------------------------------------
+[debug] [2018-02-20T14:18:52.091Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Niall McC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-20T14:18:52.092Z] CLI Version:   3.17.4
+[debug] [2018-02-20T14:18:52.092Z] Platform:      win32
+[debug] [2018-02-20T14:18:52.092Z] Node Version:  v6.11.4
+[debug] [2018-02-20T14:18:52.093Z] Time:          Tue Feb 20 2018 14:18:52 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T14:18:52.093Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-20T14:18:52.136Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-20T14:18:52.137Z] > authorizing via signed-in user
+[debug] [2018-02-20T14:18:52.143Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-20T14:18:52.145Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/MnQ2tdh6F1-MqbTPkFAweGX-x5dLSICGXkPUAxKejfo',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Feb 20 2018 14:18:52 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T14:18:52.426Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-20T14:18:52.444Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/simplenotify-66929  
+  
+ Tue Feb 20 2018 14:18:52 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T14:18:53.116Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-20T14:18:53.118Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/simplenotify-66929/tokens  
+  
+ Tue Feb 20 2018 14:18:53 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T14:18:53.784Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Niall McC\Desktop\simply-notify-start'...
+[info] 
+[debug] [2018-02-20T14:18:53.796Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/simplenotify-66929  
+  
+ Tue Feb 20 2018 14:18:53 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T14:18:54.474Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-20T14:18:54.475Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/175897050447/clients/_:getWebAppConfig  
+  
+ Tue Feb 20 2018 14:18:54 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T14:18:54.926Z] <<< HTTP RESPONSE 200
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-20T15:06:04.479Z] ----------------------------------------------------------------------
+[debug] [2018-02-20T15:06:04.485Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Niall McC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-20T15:06:04.486Z] CLI Version:   3.17.4
+[debug] [2018-02-20T15:06:04.486Z] Platform:      win32
+[debug] [2018-02-20T15:06:04.486Z] Node Version:  v6.11.4
+[debug] [2018-02-20T15:06:04.487Z] Time:          Tue Feb 20 2018 15:06:04 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T15:06:04.487Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-20T15:06:04.514Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-20T15:06:04.516Z] > authorizing via signed-in user
+[debug] [2018-02-20T15:06:04.520Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-20T15:06:04.521Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/MnQ2tdh6F1-MqbTPkFAweGX-x5dLSICGXkPUAxKejfo',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Feb 20 2018 15:06:04 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T15:06:04.695Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-20T15:06:04.710Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/simplenotify-66929  
+  
+ Tue Feb 20 2018 15:06:04 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T15:06:05.941Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-20T15:06:05.943Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/simplenotify-66929/tokens  
+  
+ Tue Feb 20 2018 15:06:05 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T15:06:06.668Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Niall McC\Desktop\simply-notify-start'...
+[info] 
+[debug] [2018-02-20T15:06:06.678Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/simplenotify-66929  
+  
+ Tue Feb 20 2018 15:06:06 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T15:06:07.488Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-20T15:06:07.489Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/175897050447/clients/_:getWebAppConfig  
+  
+ Tue Feb 20 2018 15:06:07 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T15:06:08.204Z] <<< HTTP RESPONSE 200
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-20T22:05:27.361Z] ----------------------------------------------------------------------
+[debug] [2018-02-20T22:05:27.364Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Niall McC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-20T22:05:27.364Z] CLI Version:   3.17.4
+[debug] [2018-02-20T22:05:27.364Z] Platform:      win32
+[debug] [2018-02-20T22:05:27.364Z] Node Version:  v6.11.4
+[debug] [2018-02-20T22:05:27.364Z] Time:          Tue Feb 20 2018 22:05:27 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T22:05:27.364Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-20T22:05:27.383Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-20T22:05:27.383Z] > authorizing via signed-in user
+[debug] [2018-02-20T22:05:27.386Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-20T22:05:27.386Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/MnQ2tdh6F1-MqbTPkFAweGX-x5dLSICGXkPUAxKejfo',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Feb 20 2018 22:05:27 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T22:05:27.563Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-20T22:05:27.573Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/simplenotify-66929  
+  
+ Tue Feb 20 2018 22:05:27 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T22:05:28.565Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-20T22:05:28.565Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/simplenotify-66929/tokens  
+  
+ Tue Feb 20 2018 22:05:28 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T22:05:29.145Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Niall McC\Desktop\simply-notify-start'...
+[info] 
+[debug] [2018-02-20T22:05:29.148Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/simplenotify-66929  
+  
+ Tue Feb 20 2018 22:05:29 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T22:05:29.971Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-20T22:05:29.971Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/175897050447/clients/_:getWebAppConfig  
+  
+ Tue Feb 20 2018 22:05:29 GMT+0000 (GMT Standard Time)
+[debug] [2018-02-20T22:05:30.530Z] <<< HTTP RESPONSE 200
 [info] +  hosting: Local server: http://localhost:5000
 
